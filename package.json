@@ -1,0 +1,18 @@
+{
+  "name": "librus-bot",
+  "version": "1.0.0",
+  "description": "Bot do pobierania wiadomosci i zadan domowych z librusa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js"
+  },
+  "author": "Philipp Baszuk",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "puppeteer": "^2.1.1",
+    "rxjs": "^6.5.4"
+  }
+}
